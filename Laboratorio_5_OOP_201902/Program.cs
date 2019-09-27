@@ -29,6 +29,7 @@ namespace Laboratorio_5_OOP_201902
             Console.WriteLine("\nPlayer Deck:");
             foreach (Card card in player.Deck.Cards)
             {
+                
                 Console.WriteLine($"{counter++}: {card.Name}");
             }
             
