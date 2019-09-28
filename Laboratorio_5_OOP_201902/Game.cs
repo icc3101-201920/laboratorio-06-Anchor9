@@ -93,7 +93,8 @@ namespace Laboratorio_5_OOP_201902
         }
         public void Play()
         {
-            throw new NotImplementedException();
+            Visualization.ShowCaptains(Captains);
+
         }
         public void AddDecks()
         {
